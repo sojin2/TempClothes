@@ -12,7 +12,19 @@ final class LoadAPI{
     
     class func getWeatherAPI(urlString: String, requestDic: [String:Any], completion: @escaping (Data) -> Void){
         
-        AF.request(urlString, method: .get, parameters: requestDic, encoding: URLEncoding.default).responseData { response in
+//                AF.request(urlString, method: .get, parameters: requestDic, encoding: URLEncoding.default).responseData { response in
+//                    if let data = response.data {
+//                        print(data)
+//                        completion(data)
+//                    } else {
+//                        if let err = response.error {
+//                            print(err)
+//                            print("에러당당")
+//                        }
+//                    }
+//                }
+        
+        AF.request(urlString, method: .get, parameters: requestDic, encoding: URLEncoding.default).responseString { response in
             if let data = response.data {
                 print(data)
                 completion(data)
@@ -23,5 +35,7 @@ final class LoadAPI{
                 }
             }
         }
+
+        
     }
 }

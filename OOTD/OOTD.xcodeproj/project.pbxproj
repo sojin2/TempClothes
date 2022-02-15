@@ -17,6 +17,8 @@
 		695E96DF27B7F2AA00679353 /* LoadAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695E96DE27B7F2AA00679353 /* LoadAPI.swift */; };
 		695E96E127B7F37800679353 /* OotdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695E96E027B7F37800679353 /* OotdViewController.swift */; };
 		695E96E327B7F3FD00679353 /* SelectButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695E96E227B7F3FD00679353 /* SelectButtonView.swift */; };
+		69DF274127BA8DBC0069D0C2 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DF274027BA8DBC0069D0C2 /* WeatherModel.swift */; };
+		69DF274527BAC2100069D0C2 /* tmConvertDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DF274427BAC2100069D0C2 /* tmConvertDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		695E96DE27B7F2AA00679353 /* LoadAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadAPI.swift; sourceTree = "<group>"; };
 		695E96E027B7F37800679353 /* OotdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OotdViewController.swift; sourceTree = "<group>"; };
 		695E96E227B7F3FD00679353 /* SelectButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButtonView.swift; sourceTree = "<group>"; };
+		69DF274027BA8DBC0069D0C2 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		69DF274427BAC2100069D0C2 /* tmConvertDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tmConvertDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		695E96DC27B7F28100679353 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				69DF274027BA8DBC0069D0C2 /* WeatherModel.swift */,
+				69DF274427BAC2100069D0C2 /* tmConvertDTO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -190,8 +196,10 @@
 				695E96A327B7F1A400679353 /* AppDelegate.swift in Sources */,
 				695E96D327B7F22B00679353 /* SelectViewController.swift in Sources */,
 				695E96E327B7F3FD00679353 /* SelectButtonView.swift in Sources */,
+				69DF274127BA8DBC0069D0C2 /* WeatherModel.swift in Sources */,
 				695E96DF27B7F2AA00679353 /* LoadAPI.swift in Sources */,
 				695E96E127B7F37800679353 /* OotdViewController.swift in Sources */,
+				69DF274527BAC2100069D0C2 /* tmConvertDTO.swift in Sources */,
 				695E96A527B7F1A400679353 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
